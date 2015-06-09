@@ -41,7 +41,7 @@
 
 <a name="lvl02"><h3>Level 02</h3></a>
 ```javascript
-	maze = new ROT.Map.DividedMaze(3,3);
+	maze = new ROT.Map.DividedMaze(1, 1);
 ```
 ```javascript
 	map.placeObject(8, 5, 'exit');
