@@ -241,7 +241,8 @@ Press 5 x UP, keep RIGHT button pressed until you reach next level
     });
 ```
 
-<h2>Level 21</h2> - Menu --> scripts/objects.js -> Line 92
+<h2>Level 21</h2>
+Menu --> scripts/objects.js -> Line 92
 ```javascript
                 //if (!game.map.finalLevel) {
                     game._moveToNextLevel();
