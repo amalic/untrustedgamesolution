@@ -1,6 +1,8 @@
 <h2>Game: <a href="http://alexnisnevich.github.io/untrusted/">http://alexnisnevich.github.io/untrusted/</a></h2>
 
-<h3>Level 01</h3>
+<a href="#lvl01">Level 01</a>
+
+<a name="lvl01"><h3>Level 01</h3></a>
 ```javascript
     //for (y = 3; y <= map.getHeight() - 10; y++) {
         //map.placeObject(5, y, 'block');
