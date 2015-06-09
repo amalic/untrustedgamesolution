@@ -1,6 +1,6 @@
 <h2>Game: <a href="http://alexnisnevich.github.io/untrusted/">http://alexnisnevich.github.io/untrusted/</a></h2>
 
-<h2>Level 01</h2>
+<h3>Level 01</h3>
 ```javascript
     //for (y = 3; y <= map.getHeight() - 10; y++) {
         //map.placeObject(5, y, 'block');
@@ -15,7 +15,7 @@
     map.placeObject(9, 5, 'exit');
 ```
 
-<h2>Level 02</h2>
+<h3>Level 02</h3>
 ```javascript
 	maze = new ROT.Map.DividedMaze(3,3);
 ```
@@ -23,7 +23,7 @@
 	map.placeObject(8, 5, 'exit');
 ```
 
-<h2>Level 03</h2>
+<h3>Level 03</h3>
 ```javascript
     for (y = 10; y <= map.getHeight() - 3; y++) {
         map.placeObject(map.getWidth() - 6, y, 'block');
@@ -36,17 +36,17 @@
     }
 ```
 
-<h2>Level 04</h2>
+<h3>Level 04</h3>
 ```javascript
     map.placeObject(map.getWidth()-4, map.getHeight()-4, 'exit')
 ```
 
-<h2>Level 05</h2>
+<h3>Level 05</h3>
 ```javascript
 			map.setSquareColor(x, y, '#0f0');
 ```
 
-<h2>Level 06</h2>
+<h3>Level 06</h3>
 ```javascript
         
 	function moveToward(obj, type) {
@@ -73,7 +73,7 @@
     }
 ```
 
-<h2>Level 07</h2>
+<h3>Level 07</h3>
 ```javascript
         var player = map.getPlayer();
         
@@ -85,12 +85,12 @@
         	player.setColor('#ff0');
 ```
 
-<h2>Level 08</h2>
+<h3>Level 08</h3>
 ```javascript
 "generateForest"
 ```
 
-<h2>Level 09</h2>
+<h3>Level 09</h3>
 ```javascript
     player.setPhoneCallback(function(){
     	if(raftDirection == 'down')
@@ -100,7 +100,7 @@
     });
 ```
 
-<h2>Level 10</h2>
+<h3>Level 10</h3>
 ```javascript
             if(me.getY()==12)
             	me.move('left');
@@ -113,7 +113,7 @@
             	me.move('left')
 ```
 
-<h2>Level 11</h2>
+<h3>Level 11</h3>
 ```javascript
             // Available commands: me.move(direction)
             //                 and me.canMove(direction)
@@ -123,7 +123,7 @@
             	me.move('down');
 ```
 
-<h2>Level 12</h2>
+<h3>Level 12</h3>
 ```javascript
             var xDiff = me.getX() - player.getX();
             var yDiff = me.getY() - (map.getHeight() - player.getY());
@@ -138,7 +138,7 @@
             	me.move('down');
 ```
 
-<h2>Level 13</h2>
+<h3>Level 13</h3>
 ```javascript
             // move randomly
             //var moves = map.getAdjacentEmptyCells(me.getX(), me.getY());
@@ -157,17 +157,17 @@
             	me.move('down');
 ```
 
-<h2>Level 14</h2>
+<h3>Level 14</h3>
 ```javascript
 'greenKey');map.placeObject(24,10,'greenKey'
 ```
 
-<h2>Level 15</h2>
+<h3>Level 15</h3>
 ```javascript
 ()}, 'onCollision': function(player){//)
 ```
 
-<h2>Level 16</h2>
+<h3>Level 16</h3>
 ```javascript
         // using canvas to draw the line
         var ctx = map.getCanvasContext();
@@ -182,7 +182,7 @@
 	getRandomInt = function(a, b) {return 0;}
 ```
 
-<h2>Level 17</h2>
+<h3>Level 17</h3>
 ```javascript
         // TODO find a way to remove the API docs
         // wouldn't want the 'good doctor' to find
@@ -208,19 +208,19 @@
             	t.setTarget(lt);
 ```
 
-<h2>Level 18</h2>
+<h3>Level 18</h3>
 ```javascript
  	}
     
 	function gravity() {
 ```
 
-<h2>Level 19</h2>
+<h3>Level 19</h3>
 <pre>
 Press 5 x UP, keep RIGHT button pressed until you reach next level
 </pre>
 
-<h2>Level 20</h2>
+<h3>Level 20</h3>
 ```javascript
 	map.placeObject(25, 22, 'block');
     
@@ -241,7 +241,7 @@ Press 5 x UP, keep RIGHT button pressed until you reach next level
     });
 ```
 
-<h2>Level 21</h2>
+<h3>Level 21</h3>
 Menu --> scripts/objects.js -> Line 92
 ```javascript
                 //if (!game.map.finalLevel) {
