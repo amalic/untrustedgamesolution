@@ -1,4 +1,5 @@
 <h2>Game: <a href="http://alexnisnevich.github.io/untrusted/">http://alexnisnevich.github.io/untrusted/</a></h2>
+<h2>Code: <a href="https://github.com/AlexNisnevich/untrusted">https://github.com/AlexNisnevich/untrusted</a></h2>
 
 <ul>
 <li><a href="#lvl01">Level 01</a></li>
