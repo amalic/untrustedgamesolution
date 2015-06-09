@@ -266,7 +266,7 @@ Press 5 x UP, keep RIGHT button pressed until you reach next level
 ```
 
 <a name="lvl21"><h3>Level 21</h3></a>
-Menu --> scripts/objects.js -> Line 92
+Menu -> scripts/objects.js -> Line 92
 ```javascript
                 //if (!game.map.finalLevel) {
                     game._moveToNextLevel();
