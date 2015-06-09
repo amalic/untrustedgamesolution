@@ -27,15 +27,15 @@
 
 <a name="lvl01"><a name="lvl01"><h3>Level 01</h3></a>
 ```javascript
-    //for (y = 3; y <= map.getHeight() - 10; y++) {
-        //map.placeObject(5, y, 'block');
-        //map.placeObject(map.getWidth() - 5, y, 'block');
-    //}
+    /*for (y = 3; y <= map.getHeight() - 10; y++) {
+        map.placeObject(5, y, 'block');
+        map.placeObject(map.getWidth() - 5, y, 'block');
+    }
     
-    //for (x = 5; x <= map.getWidth() - 5; x++) {
-        //map.placeObject(x, 3, 'block');
-        //map.placeObject(x, map.getHeight() - 10, 'block');
-    //}
+    for (x = 5; x <= map.getWidth() - 5; x++) {
+        map.placeObject(x, 3, 'block');
+        map.placeObject(x, map.getHeight() - 10, 'block');
+    }*/
     map.placeObject(8, 5, 'computer');
     map.placeObject(9, 5, 'exit');
 ```
