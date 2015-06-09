@@ -72,28 +72,9 @@
 
 <a name="lvl06"><h3>Level 06</h3></a>
 ```javascript
-        
-	function moveToward(obj, type) {
-        var target = obj.findNearest('exit');
-        var leftDist = obj.getX() ;
-        var upDist = obj.getY() - target.y;
-        
-        var direction;
-        if (upDist == 0 && leftDist == 0) {
-        	return;
-        } if (upDist > 0 && upDist >= leftDist) {
-            direction = 'up';
-        } else if (upDist < 0 && upDist < leftDist) {
-            direction = 'down';
-        } else if (leftDist > 0 && leftDist >= upDist) {
-            direction = 'left';
-        } else {
-            direction = 'right';
-        }
-        
-        if (obj.canMove(direction)) {
-            obj.move(direction);
-        }
+    function moveToward(obj, type) {
+        if(obj.canMove('left'))
+            obj.move('left');
     }
 ```
 
