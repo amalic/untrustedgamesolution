@@ -73,8 +73,7 @@
 <a name="lvl06"><h3>Level 06</h3></a>
 ```javascript
     function moveToward(obj, type) {
-        if(obj.canMove('left'))
-            obj.move('left');
+    	obj.move('left');
     }
 ```
 
