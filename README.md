@@ -164,7 +164,7 @@
 
 <h3>Level 15</h3>
 ```javascript
-()}, 'onCollision': function(player){//)
+()}, 'onCollision': function(player){//
 ```
 
 <h3>Level 16</h3>
