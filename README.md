@@ -240,9 +240,8 @@
 ```
 
 <a name="lvl19"><h3>Level 19</h3></a>
-<pre>
-Press 5 x UP, keep RIGHT button pressed until you reach next level
-</pre>
+Press 5 x UP :fast_forward: keep RIGHT button pressed until you reach next level
+
 
 <a name="lvl20"><h3>Level 20</h3></a>
 ```javascript
